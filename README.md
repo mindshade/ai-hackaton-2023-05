@@ -4,14 +4,15 @@ A jupyter notebook setup for journeying into the land of LLMs and Lang Chains...
 
 ## Prerequisites
 
-Docker installed. 
+1. Docker (Desktop) installed. 
+2. An OpenAI API KEY - get a free (or paid) account at <https://platform.openai.com/> and generate a key at <https://platform.openai.com/account/api-keys>
 
 ## Configure
 
-Create `jupyter.env` in project root with your key:
+Create `jupyter.env` in project root with your API key:
 
 ```
-OPENAI_API_KEY=...
+OPENAI_API_KEY={MY_SECRET_KEY_THAT_I_NEVER_EXPOSE}
 ```
 
 ## Security
