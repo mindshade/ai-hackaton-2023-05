@@ -17,7 +17,7 @@ OPENAI_API_KEY=...
 ## Security
 
 The notebook server has no login security setup. 
-DO NOT EXPOSE PORT 888 ON A PUBLIC NETWORK. 
+DO NOT EXPOSE THE JUPYTER PORT 8888 ON A PUBLIC NETWORK. 
 
 ## Start
 
